@@ -1,5 +1,6 @@
-package dev.teamkjk.reservation_system.persistence.entity.performance;
+package dev.teamkjk.reservation_system.domain.performance;
 
+import java.time.LocalDateTime;
 import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 import lombok.AllArgsConstructor;
@@ -12,8 +13,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@DiscriminatorValue("musical")
-public class MusicalEntity extends PerformanceEntity {
+@DiscriminatorValue("movie")
+public class MovieEntity extends PerformanceEntity {
 
-  private String location;
+  private LocalDateTime releaseAt;
 }

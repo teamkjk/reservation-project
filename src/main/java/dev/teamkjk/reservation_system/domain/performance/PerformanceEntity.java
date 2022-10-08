@@ -1,6 +1,6 @@
-package dev.teamkjk.reservation_system.persistence.entity.performance;
+package dev.teamkjk.reservation_system.domain.performance;
 
-import dev.teamkjk.reservation_system.persistence.entity.BaseTimeEntity;
+import dev.teamkjk.reservation_system.domain.BaseTimeEntity;
 import javax.persistence.Column;
 import javax.persistence.DiscriminatorColumn;
 import javax.persistence.Entity;
