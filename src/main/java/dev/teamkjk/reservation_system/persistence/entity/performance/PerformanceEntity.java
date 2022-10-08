@@ -1,5 +1,6 @@
 package dev.teamkjk.reservation_system.persistence.entity.performance;
 
+import dev.teamkjk.reservation_system.persistence.entity.BaseTimeEntity;
 import javax.persistence.Column;
 import javax.persistence.DiscriminatorColumn;
 import javax.persistence.Entity;
@@ -20,7 +21,7 @@ import lombok.Setter;
 @Table(name = "performance")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name = "dtype")
-public abstract class PerformanceEntity {
+public abstract class PerformanceEntity extends BaseTimeEntity {
 
   @Id
   private String id;
