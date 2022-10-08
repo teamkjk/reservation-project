@@ -1,4 +1,4 @@
-package dev.teamkjk.reservation_system.persistence.entity.performance;
+package dev.teamkjk.reservation_system.domain.performance;
 
 import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;

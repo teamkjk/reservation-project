@@ -1,4 +1,4 @@
-package dev.teamkjk.reservation_system.persistence.entity;
+package dev.teamkjk.reservation_system.domain;
 
 import java.time.LocalDateTime;
 import javax.persistence.EntityListeners;

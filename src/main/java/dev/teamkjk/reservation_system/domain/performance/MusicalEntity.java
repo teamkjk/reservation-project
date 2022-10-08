@@ -1,4 +1,4 @@
-package dev.teamkjk.reservation_system.persistence.entity.performance;
+package dev.teamkjk.reservation_system.domain.performance;
 
 import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
@@ -12,8 +12,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@DiscriminatorValue("play")
-public class PlayEntity extends PerformanceEntity {
+@DiscriminatorValue("musical")
+public class MusicalEntity extends PerformanceEntity {
 
   private String location;
 }
