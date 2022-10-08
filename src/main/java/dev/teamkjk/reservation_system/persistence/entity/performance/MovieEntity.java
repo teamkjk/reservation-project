@@ -1,4 +1,4 @@
-package dev.teamkjk.reservation_system.entity.performance;
+package dev.teamkjk.reservation_system.persistence.entity.performance;
 
 import java.time.LocalDateTime;
 import javax.persistence.DiscriminatorValue;
